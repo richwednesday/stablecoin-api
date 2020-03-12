@@ -50,10 +50,11 @@ const stablecoin = require('stablecoin-api');
 
 #### Transfer
 
-`stablecoin.transfer(coin, to, amount, privateKey, from, memo)`  
-`from` is only required for transactions on the Binance Chain (ABCD and BUSD).  
-`memo` is only available on the Binance Chain.  
-The Response format differs between the Ethereum chain and Binance Chain.
+`stablecoin.transfer(coin, to, amount, privateKey, from, memo)`
+  
+- `from` is only required for transactions on the Binance Chain (ABCD and BUSD).  
+- `memo` is only available on the Binance Chain.  
+- The Response format differs between the Ethereum chain and Binance Chain.
 
 ```js
 const stablecoin = require('stablecoin-api');
