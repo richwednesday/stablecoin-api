@@ -1,0 +1,28 @@
+{
+  "name": "stablecoin-api",
+  "version": "1.0.0",
+  "description": "Node Module for generating stable coin addresses, checking balance and making transfers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "USDC",
+    "BUSD",
+    "NGNT",
+    "ABCD",
+    "Stablecoin",
+    "Naira",
+    "Bitcoin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richwednesday/stablecoin-api.git"
+  },
+  "author": "richwednesday",
+  "license": "ISC",
+  "dependencies": {
+    "@binance-chain/javascript-sdk": "^2.16.3",
+    "ethers": "^4.0.45"
+  }
+}
